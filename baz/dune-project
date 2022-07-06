@@ -1,0 +1,7 @@
+(lang dune 2.9)
+
+(name baz)
+
+(generate_opam_files true)
+
+(package (name baz))

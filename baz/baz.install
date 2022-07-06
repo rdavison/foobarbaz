@@ -1,0 +1,18 @@
+lib: [
+  "_build/install/default/lib/baz/META"
+  "_build/install/default/lib/baz/baz.a"
+  "_build/install/default/lib/baz/baz.cma"
+  "_build/install/default/lib/baz/baz.cmi"
+  "_build/install/default/lib/baz/baz.cmt"
+  "_build/install/default/lib/baz/baz.cmx"
+  "_build/install/default/lib/baz/baz.cmxa"
+  "_build/install/default/lib/baz/baz.ml"
+  "_build/install/default/lib/baz/baz__Thing.cmi"
+  "_build/install/default/lib/baz/baz__Thing.cmt"
+  "_build/install/default/lib/baz/baz__Thing.cmx"
+  "_build/install/default/lib/baz/dune-package"
+  "_build/install/default/lib/baz/thing.ml"
+]
+libexec: [
+  "_build/install/default/lib/baz/baz.cmxs"
+]

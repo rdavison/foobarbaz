@@ -1,0 +1,27 @@
+{
+  "name": "baz",
+  "private": true,
+  "version": "0.1.0",
+  "esy": {
+    "build": "dune build --root #{self.root} --profile=release @install",
+    "buildDev": "dune build --root #{self.root} --profile=dev @all",
+    "buildEnv": {},
+    "buildsInSource": "_build"
+  },
+  "scripts": {
+    "clean": "esy dune clean --root #{self.root}",
+    "watch": "esy dune build --root #{self.root} --profile=dev @all -w"
+  },
+  "dependencies": {
+    "ocaml": "4.12.0",
+    "@opam/dune": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*",
+    "@opam/utop": "*"
+  },
+  "resolutions": {
+    "@opam/ocamlfind": "1.9.3"
+  }
+}

@@ -1,0 +1,5 @@
+(executable
+  (name main)
+  (public_name foo)
+  (libraries bar baz)
+  (package foo))

@@ -1,0 +1,19 @@
+lib: [
+  "_build/install/default/lib/bar/META"
+  "_build/install/default/lib/bar/bar.a"
+  "_build/install/default/lib/bar/bar.cma"
+  "_build/install/default/lib/bar/bar.cmi"
+  "_build/install/default/lib/bar/bar.cmt"
+  "_build/install/default/lib/bar/bar.cmx"
+  "_build/install/default/lib/bar/bar.cmxa"
+  "_build/install/default/lib/bar/bar.ml"
+  "_build/install/default/lib/bar/bar__Thing.cmi"
+  "_build/install/default/lib/bar/bar__Thing.cmt"
+  "_build/install/default/lib/bar/bar__Thing.cmx"
+  "_build/install/default/lib/bar/dune-package"
+  "_build/install/default/lib/bar/opam"
+  "_build/install/default/lib/bar/thing.ml"
+]
+libexec: [
+  "_build/install/default/lib/bar/bar.cmxs"
+]
